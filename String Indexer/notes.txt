@@ -1,0 +1,9 @@
+sample string Column = [a, c, c, a, b, c]
+
+string Indexer output Column
+[0, 1, 1, 0, 2, 1]
+
+One hot encoder output Column
+[[1, 0, 0], [0, 1, 0], [0, 1, 0], [1, 0, 0], [0, 0, 1], [0, 1, 0]]
+
+every list in list represent [a, c, b]
