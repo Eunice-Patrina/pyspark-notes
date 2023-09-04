@@ -1,5 +1,5 @@
 from pyspark.ml.linalg import Vectors
-from pyspark.ml.feaature import VectorAssembler
+from pyspark.ml.feature import VectorAssembler
 
 # assembler merges multiple columns into single column
 # usually this is final step before modeling phase
